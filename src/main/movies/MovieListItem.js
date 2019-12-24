@@ -2,10 +2,10 @@ import React from "react";
 import "./MovieListItem.css";
 
 const MovieListItem = ({ movie }) => {
-    const { title, poster_path, release_date, vote_average } = movie;
-    const imgUrl = `https://image.tmdb.org/t/p/w342/${poster_path}`;
-    const year = release_year.substring(0, 4);
-  
+  const { title, poster_path, release_date, vote_average } = movie;
+  const imgUrl = `https://image.tmdb.org/t/p/w342/${poster_path}`;
+  const year = release_date.substring(0, 4);
+
   return (
     <li className="movie-item">
       <img src={imgUrl} alt={title} />
@@ -23,7 +23,7 @@ const MovieListItem = ({ movie }) => {
         </section>
       </div>
     </li>
-  )
-}
+  );
+};
 
 export default MovieListItem;
