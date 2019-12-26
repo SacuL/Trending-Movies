@@ -1,0 +1,24 @@
+name: Node Deploy
+
+on: [push, pull_request] # Run on Push and Pull Requests
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x] # Only run the 12.x build
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm install -g yarn
+    - name: yarn install, build
+      run: |
+        yarn
+        yarn buildmove
