@@ -1,5 +1,6 @@
 {
-  "name": "pin-movie",
+  "homepage" : "https://sacul.github.io/Trending-Movies/",
+  "name": "Trending-Movies",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "buildmove": "react-scripts build && rm -rf dist && mv build docs"
   },
   "eslintConfig": {
     "extends": "react-app"
