@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "buildmove": "react-scripts build && rm -rf dist && mv build docs"
+    "buildmove": "react-scripts build && rm -rf dist && rm -rf docs/ && mv build docs"
   },
   "eslintConfig": {
     "extends": "react-app"
