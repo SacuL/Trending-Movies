@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://sacul.github.io/Trending-Movies/",
+  "homepage": "https://sacul.github.io/Trending-Movies/",
   "name": "Trending-Movies",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "rc-slider": "^8.7.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-input-range": "^1.3.0",
