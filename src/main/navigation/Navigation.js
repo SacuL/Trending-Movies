@@ -2,7 +2,7 @@ import React from "react";
 import "./Navigation.css";
 import Selection from "./Selection";
 import FilterSlider from "./FilterSlider";
-import SearchButton from "./SearchButton";
+import Button from "./Button";
 
 class Navigation extends React.Component {
   componentDidMount() {
@@ -20,7 +20,8 @@ class Navigation extends React.Component {
       onChange,
       year,
       rating,
-      runtime
+      runtime,
+      onSearchButtonClick
     } = this.props;
     return (
       <section className="navigation">
@@ -34,7 +35,7 @@ class Navigation extends React.Component {
         <FilterSlider data={rating} onChange={onChange} />
         <FilterSlider data={runtime} onChange={onChange} />
 
-        <SearchButton onClick={this.props.onSearchButtonClick} />
+        <Button onClick={onSearchButtonClick}>Search</Button>
       </section>
     );
   }

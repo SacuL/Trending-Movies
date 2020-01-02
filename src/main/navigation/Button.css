@@ -1,8 +1,8 @@
-.search-button {
+.my-button {
   display: flex;
   justify-content: center;
 }
-.search-button button {
+.my-button button {
   padding: 10px 21px;
   background: #e27a3f;
   color: rgba(255, 255, 255, 0.75);
@@ -13,6 +13,6 @@
   border: 0;
 }
 
-.search-button button:hover {
+.my-button button:hover {
   color: white;
 }
