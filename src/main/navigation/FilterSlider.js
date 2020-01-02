@@ -1,10 +1,18 @@
 import React from "react";
 import "./FilterSlider.css";
 
-import { Range } from "rc-slider";
+import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
+import "rc-tooltip/assets/bootstrap.css";
+
+const createSliderWithTooltip = Slider.createSliderWithTooltip;
+const Range = createSliderWithTooltip(Slider.Range);
 
 class FilterSlider extends React.Component {
+  componentDidMount() {
+    this.forceUpdate(); // Force redraw to fix tooltip position
+  }
+
   onChange = data => {
     this.props.onChange({
       type: this.props.data.label,
@@ -29,6 +37,7 @@ class FilterSlider extends React.Component {
           onAfterChange={this.onChange}
           step={step}
           defaultValue={[value.min, value.max]}
+          tipProps={{ placement: "bottom", visible: true }}
         />
       </div>
     );
