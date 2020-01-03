@@ -60,3 +60,11 @@ ul {
 .movie-rating {
   align-items: flex-end;
 }
+
+.thumbnail {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  cursor: pointer;
+  text-decoration: none;
+}
