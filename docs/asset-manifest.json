@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Trending-Movies/static/css/main.93ae663e.chunk.css",
-    "main.js": "/Trending-Movies/static/js/main.e2cbeaef.chunk.js",
-    "main.js.map": "/Trending-Movies/static/js/main.e2cbeaef.chunk.js.map",
+    "main.js": "/Trending-Movies/static/js/main.f823de4f.chunk.js",
+    "main.js.map": "/Trending-Movies/static/js/main.f823de4f.chunk.js.map",
     "runtime-main.js": "/Trending-Movies/static/js/runtime-main.9465eb54.js",
     "runtime-main.js.map": "/Trending-Movies/static/js/runtime-main.9465eb54.js.map",
     "static/css/2.82f03f93.chunk.css": "/Trending-Movies/static/css/2.82f03f93.chunk.css",
     "static/js/2.3c107621.chunk.js": "/Trending-Movies/static/js/2.3c107621.chunk.js",
     "static/js/2.3c107621.chunk.js.map": "/Trending-Movies/static/js/2.3c107621.chunk.js.map",
     "index.html": "/Trending-Movies/index.html",
-    "precache-manifest.70dae71c70545fe27762345ed0faffc7.js": "/Trending-Movies/precache-manifest.70dae71c70545fe27762345ed0faffc7.js",
+    "precache-manifest.bcd34cb74d0d3175e9eb764a39c9ab8d.js": "/Trending-Movies/precache-manifest.bcd34cb74d0d3175e9eb764a39c9ab8d.js",
     "service-worker.js": "/Trending-Movies/service-worker.js",
     "static/css/2.82f03f93.chunk.css.map": "/Trending-Movies/static/css/2.82f03f93.chunk.css.map",
     "static/css/main.93ae663e.chunk.css.map": "/Trending-Movies/static/css/main.93ae663e.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.82f03f93.chunk.css",
     "static/js/2.3c107621.chunk.js",
     "static/css/main.93ae663e.chunk.css",
-    "static/js/main.e2cbeaef.chunk.js"
+    "static/js/main.f823de4f.chunk.js"
   ]
 }

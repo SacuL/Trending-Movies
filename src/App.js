@@ -13,7 +13,8 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Main} />
           <Route path="/movie/:movieId" component={Movie} />
-          <Route component={NotFound} />
+          {/* <Route component={NotFound} /> */}
+          <Route component={Main} />
         </Switch>
       </div>
     </BrowserRouter>

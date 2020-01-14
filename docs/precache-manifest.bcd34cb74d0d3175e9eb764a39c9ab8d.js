@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "042636ca61ac19827b8b1cd01f3b90c2",
+    "revision": "f1bb67d84b93173380789ee722909da9",
     "url": "/Trending-Movies/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Trending-Movies/static/css/2.82f03f93.chunk.css"
   },
   {
-    "revision": "be24aa0b1d4efdb4a84f",
+    "revision": "7c20de7e571325738c4f",
     "url": "/Trending-Movies/static/css/main.93ae663e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Trending-Movies/static/js/2.3c107621.chunk.js.LICENSE"
   },
   {
-    "revision": "be24aa0b1d4efdb4a84f",
-    "url": "/Trending-Movies/static/js/main.e2cbeaef.chunk.js"
+    "revision": "7c20de7e571325738c4f",
+    "url": "/Trending-Movies/static/js/main.f823de4f.chunk.js"
   },
   {
     "revision": "d3e661257e0c9b08c817",
