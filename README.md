@@ -1,3 +1,6 @@
+### Trending Movies
+
+
 ![alt text](public/main-logo-200-100.png "Trending Movies Logo")
 
 
