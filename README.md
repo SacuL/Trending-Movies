@@ -1,6 +1,6 @@
-## Trending Movies
+### Trending Movies
 
-Inline-style: 
+
 ![alt text](public/main-logo-200-100.png "Trending Movies Logo")
 
 
