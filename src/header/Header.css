@@ -1,12 +1,13 @@
 header {
     display: flex;
     height: 80px;
-    justify-content: center;
+    
     align-items: center;
     border-bottom: 1px solid #a9adac;
   }
   
   header h1 {
-    font-size: 2rem;
-    color: #e27a3f;
+    margin-left: 30%;
+    font-size: 1.5rem;
+    color: #9e414b;
   }

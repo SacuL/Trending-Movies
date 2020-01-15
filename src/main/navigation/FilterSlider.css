@@ -1,6 +1,9 @@
 .slider {
   margin-bottom: 40px;
 }
+.rc-slider-track {
+  background-color: #ff8190 !important;
+}
 
 .slider label {
   color: #555;

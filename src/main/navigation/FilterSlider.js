@@ -38,6 +38,11 @@ class FilterSlider extends React.Component {
           step={step}
           defaultValue={[value.min, value.max]}
           tipProps={{ placement: "bottom", visible: true }}
+          sliderTrackStyle={{ backgroundColor: 'blue', height: 10 }}
+          handleStyle={{
+            borderColor: "#a75d65",
+            backgroundColor: "white"
+          }}
         />
       </div>
     );
