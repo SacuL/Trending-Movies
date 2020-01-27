@@ -10,12 +10,12 @@ class Header extends React.Component {
         <img
           class="logoOnly"
           alt="Trending Movies Logo"
-          src="Trending-Movies/logo-86-78.png"
+          src="logo-86-78.png"
         ></img>
         <img
           class="logoText"
           alt="Trending Movies Logo"
-          src="Trending-Movies/main-logo-200-100.png"
+          src="main-logo-200-100.png"
         ></img>
         <img onClick={this.props.onClickFilter} class="filterIcon" alt="Filter" src="filter_icon.svg"></img>
         <h1>What's hot NOW?!</h1>

@@ -26,7 +26,7 @@ class Navigation extends React.Component {
     return (
       <section className={this.props.className}>
 
-        <img onClick={this.props.onClickFilter} class="navigation-close" alt="Filter" src="Trending-Movies/cross.svg"></img>
+        <img onClick={this.props.onClickFilter} class="navigation-close" alt="Filter" src="cross.svg"></img>
 
         <Selection
           genre={genre}
