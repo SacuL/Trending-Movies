@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Trending-Movies/static/css/main.67779942.chunk.css",
+    "main.js": "/Trending-Movies/static/js/main.a7a83621.chunk.js",
+    "main.js.map": "/Trending-Movies/static/js/main.a7a83621.chunk.js.map",
+    "runtime-main.js": "/Trending-Movies/static/js/runtime-main.9465eb54.js",
+    "runtime-main.js.map": "/Trending-Movies/static/js/runtime-main.9465eb54.js.map",
+    "static/css/2.82f03f93.chunk.css": "/Trending-Movies/static/css/2.82f03f93.chunk.css",
+    "static/js/2.9856bf3e.chunk.js": "/Trending-Movies/static/js/2.9856bf3e.chunk.js",
+    "static/js/2.9856bf3e.chunk.js.map": "/Trending-Movies/static/js/2.9856bf3e.chunk.js.map",
+    "index.html": "/Trending-Movies/index.html",
+    "precache-manifest.c880696cd16b55c28c048907d245257a.js": "/Trending-Movies/precache-manifest.c880696cd16b55c28c048907d245257a.js",
+    "service-worker.js": "/Trending-Movies/service-worker.js",
+    "static/css/2.82f03f93.chunk.css.map": "/Trending-Movies/static/css/2.82f03f93.chunk.css.map",
+    "static/css/main.67779942.chunk.css.map": "/Trending-Movies/static/css/main.67779942.chunk.css.map",
+    "static/js/2.9856bf3e.chunk.js.LICENSE": "/Trending-Movies/static/js/2.9856bf3e.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9465eb54.js",
+    "static/css/2.82f03f93.chunk.css",
+    "static/js/2.9856bf3e.chunk.js",
+    "static/css/main.67779942.chunk.css",
+    "static/js/main.a7a83621.chunk.js"
+  ]
+}
