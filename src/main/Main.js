@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./Main.css";
 import Navigation from "./navigation/Navigation";
 import Movies from "./movies/Movies";
@@ -155,22 +155,29 @@ class Main extends React.Component {
   };
 
   render() {
+    const showFilterClass = this.props.showFilter
+      ? "navigation-open"
+      : "navigation";
     return (
-      <section className="main">
-        <Navigation
-          onChange={this.onChange}
-          onGenreChange={this.onGenreChange}
-          setGenres={this.setGenres}
-          onSearchButtonClick={this.onSearchButtonClick}
-          {...this.state}
-        />
-        <Movies
-          movies={this.state.movies}
-          page={this.state.page}
-          onPageIncrease={this.onPageIncrease}
-          onPageDecrease={this.onPageDecrease}
-        />
-      </section>
+      <Fragment>
+        <section className="main">
+          <Navigation
+            onClickFilter={this.props.onClickFilter}
+            className={showFilterClass}
+            onChange={this.onChange}
+            onGenreChange={this.onGenreChange}
+            setGenres={this.setGenres}
+            onSearchButtonClick={this.onSearchButtonClick}
+            {...this.state}
+          ></Navigation>
+          <Movies
+            movies={this.state.movies}
+            page={this.state.page}
+            onPageIncrease={this.onPageIncrease}
+            onPageDecrease={this.onPageDecrease}
+          />
+        </section>
+      </Fragment>
     );
   }
 }

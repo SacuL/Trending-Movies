@@ -24,7 +24,10 @@ class Navigation extends React.Component {
       onSearchButtonClick
     } = this.props;
     return (
-      <section className="navigation">
+      <section className={this.props.className}>
+
+        <img onClick={this.props.onClickFilter} class="navigation-close" alt="Filter" src="cross.svg"></img>
+
         <Selection
           genre={genre}
           genres={genres}

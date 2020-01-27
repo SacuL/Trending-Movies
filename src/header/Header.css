@@ -1,13 +1,74 @@
 header {
-    display: flex;
-    height: 80px;
-    
-    align-items: center;
-    border-bottom: 1px solid #a9adac;
-  }
-  
+  display: flex;
+  height: 80px;
+  background-color: white;
+  align-items: center;
+  border-bottom: 1px solid #a9adac;
+  z-index: 50;
+}
+
+.filterIcon {
+  height: 48px;
+  display: none;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.logoText {
+  height: 78px;
+}
+
+.logoOnly {
+  height: 48px;
+  display: none;
+}
+
+header.clone {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-100%);
+  transition: 0.2s transform cubic-bezier(0.3, 0.73, 0.3, 0.74);
+  height: 50px;
+}
+
+header.clone img.logoOnly {
+  display: block;
+}
+
+header.clone img.logoText {
+  display: none;
+}
+
+div.down header.clone {
+  transform: translateY(0);
+}
+
+header h1 {
+  margin-left: 30%;
+  font-size: 1.5rem;
+  color: #9e414b;
+}
+
+@media screen and (max-width: 800px) {
   header h1 {
-    margin-left: 30%;
-    font-size: 1.5rem;
-    color: #9e414b;
+    margin-left: 5vw;
+    font-size: 1rem;
   }
+  header.clone {
+    display: flex;
+  }
+
+  header img.filterIcon {
+    height: 48px;
+    display: block;
+    padding: 10px;
+    margin-left: 4.5vw;
+  }
+}
+
+header.clone img.filterIcon {
+  display: block;
+}

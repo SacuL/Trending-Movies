@@ -41,6 +41,7 @@
   flex-direction: column;
   max-width: 800px;
   margin: 20px auto 60px auto;
+  padding: 0 1.5vw 2vw 1.5vw;
 }
 
 .movie-page .movie-details h1 {

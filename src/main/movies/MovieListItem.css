@@ -9,6 +9,12 @@
   box-shadow: 0 10px 28px -7px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width: 800px) {
+  .movie-item {
+    flex-basis: 47%;
+  }
+}
+
 .movie-item img {
   width: 100%;
 }
@@ -32,6 +38,12 @@ ul {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 800px) {
+  .movie-description h2 {
+    font-size: 4vw;
+  }
+}
+
 .movie-details {
   display: flex;
   justify-content: space-between;
@@ -41,6 +53,12 @@ ul {
   color: #555;
   font-size: 0.8rem;
   font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .movie-details span {
+    font-size: 4vw;
+  }
 }
 
 .movie-year,
