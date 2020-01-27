@@ -56,13 +56,15 @@ class Main extends React.Component {
   generateUrl = params => {
     const { genres, year, rating, runtime, page } = params;
     const selectedGenre = genres.find(genre => genre.name === params.genre);
-    const genreId = selectedGenre.id;
+    let genreId = selectedGenre ? selectedGenre.id : false;
+
+    genreId = false;
 
     const moviesUrl =
       `https://api.themoviedb.org/3/discover/movie?` +
       `api_key=${process.env.REACT_APP_TMDB_API_KEY}&` +
       `language=en-US&sort_by=popularity.desc&` +
-      `with_genres=${genreId}&` +
+      (genreId ? `with_genres=${genreId}&` : "") +
       `primary_release_date.gte=${year.value.min}-01-01&` +
       `primary_release_date.lte=${year.value.max}-12-31&` +
       `vote_average.gte=${rating.value.min}&` +
