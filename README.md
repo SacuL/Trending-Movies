@@ -1,17 +1,16 @@
 ### Trending Movies
 
 
-![alt text](public/main-logo-200-100.png "Trending Movies Logo")
-
-
 Discover which movies are hot now! Filter by date, genre and runtime.
 
+[![alt text](screenshot.jpg "Screenshot")](https://sacul.github.io/Trending-Movies/)
 
 [Live here](https://sacul.github.io/Trending-Movies/)
+
+### Acknowledgement
 
 Data provided by [The Movie DB](https://www.themoviedb.org)
 
 "Trending Movies" logo made at [FreeLogoDesign](https://www.freelogodesign.org/)
-
  
-Project made in the [Codecamps React Course](https://sweetpumpkins.codecamps.com)
+This app started as a course project [Codecamps React Course](https://sweetpumpkins.codecamps.com).
