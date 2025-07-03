@@ -16,7 +16,7 @@ class Main extends React.Component {
     year: {
       label: "year",
       min: 1990,
-      max: 2020,
+      max: 2030,
       step: 1,
       value: { min: 2015, max: 2020 }
     },
